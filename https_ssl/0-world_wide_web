@@ -1,8 +1,4 @@
-#!/usr/#!/usr/bin/env bash
-# This script displays domain information using dig
-
-dig "$1" +short
-
+#!/usr/bin/env bash
 # Define the function to get the record type and destination for a subdomain
 
 get_record_type_and_destination() {
